@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" width="200" height="48" fill="none">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="50%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+  </defs>
+  <!-- Icon Mark -->
+  <rect x="2" y="4" width="40" height="40" rx="12" fill="#111827" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+  <path d="M12 28L18 19L24 25L32 15" stroke="url(#logoGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="32" cy="15" r="3" fill="#10B981" />
+  <!-- Typography -->
+  <text x="52" y="27" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="800" font-size="20" letter-spacing="-0.5px" fill="url(#textGrad)">VESPERA</text>
+  <text x="52" y="38" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="600" font-size="9" letter-spacing="2px" fill="#10B981">LEDGER STUDIO</text>
+</svg>
